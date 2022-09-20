@@ -2,9 +2,10 @@ import React from 'react'
 import "/Footer/Footer.css"
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import Box from '@mui/material/Box';
 
 const Footer = () => {
+    const [value, setValue] = React.useState(0);
+    
     return (
         <footer>
             <a href='#' className='footer'>

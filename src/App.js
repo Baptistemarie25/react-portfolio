@@ -1,10 +1,10 @@
-import react from 'react'
-import Header from "./components/Header"
-import Nav from "./components/Nav/Nav"
-import Contact from "./components/contact"
-import About from "./components/About"
-import Portfolio from "./components/Portfolio/Portfolio"
-import Footer from "./components/Footer"
+import React from "react";
+import Header from "./components/Header/Header";
+import Nav from "./components/Nav/Nav";
+import Contact from "./components/contact";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Footer from "../src/components/Footer"
 
 const App = () => {
   return (

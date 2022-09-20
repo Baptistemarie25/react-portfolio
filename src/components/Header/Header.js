@@ -1,5 +1,4 @@
 import React from 'react'
-import "./header.css"
 import me from '../../assets/me.jpeg'
 
 function Header() {
