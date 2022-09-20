@@ -4,18 +4,20 @@ import Nav from "./components/Nav/Nav";
 import Contact from "./components/contact";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Footer from "../src/components/Footer"
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
-    <>
-      <Header/>
-      <About/>
-      <Nav/>
-      <Portfolio/>
-      <Contact/> 
-      <Footer/>
-    </>
+    <div> 
+      <main>
+        <Header/>
+        <About/>
+        <Nav/>
+        <Portfolio/>
+        <Contact/> 
+        <Footer/>
+      </main>
+    </div>
   )
 }
 

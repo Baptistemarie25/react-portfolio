@@ -1,23 +1,19 @@
 import React from 'react'
-import "/Footer/Footer.css"
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 
 const Footer = () => {
     const [value, setValue] = React.useState(0);
-    
+
     return (
         <footer>
-            <a href='#' className='footer'>
+            <a href='/#' className='footer'>
                 Marie baptiste
             </a>
     
             <ul className='links'>
-            <il><a href='#'>Home</a></il>
-            <il><a href='#About'>About</a></il>
-            <il><a href='#Experience'>Experience</a></il>
-            <il><a href='#Portfolio'>Portfolio</a></il>
-            <il><a href='#Contact'>Contact</a></il>
+            <il><a href='/#Portfolio'>Portfolio</a></il>
+            <il><a href='/#Contact'>Contact</a></il>
             </ul>
     
             <BottomNavigation
