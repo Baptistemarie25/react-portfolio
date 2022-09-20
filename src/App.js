@@ -1,18 +1,17 @@
 import react from 'react'
-import Header from "./components/Header/Header"
+import Header from "./components/Header"
 import Nav from "./components/Nav/Nav"
-import Contact from "./components/Contact/Contact"
-import Experience from "./components/Experience/Experience"
-import About from "./components/About/About"
+import Contact from "./components/contact"
+import About from "./components/About"
 import Portfolio from "./components/Portfolio/Portfolio"
-import Footer from "./components/Footer/Footer"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
     <>
       <Header/>
       <About/>
-      <Experience/>
+      <Nav/>
       <Portfolio/>
       <Contact/> 
       <Footer/>
