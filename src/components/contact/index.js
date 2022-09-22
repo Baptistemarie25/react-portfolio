@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
 
     return (
-        <section id='Contact-me'>
+        <section id='Contact-Me'>
 
             <h4>Contact Me</h4>
         
@@ -17,7 +17,7 @@ function Contact() {
                     <a href='mailto:baptiste.mariee24@gmail.com'>Email to reach</a>
                 </article>
         
-                <article className='contact-2'>
+                <article className='contact-1'>
                     <h4>LinkedIn</h4>
                     <h5>Marie Baptiste</h5>
                     <a href='https://www.linkedin.com/in/marie-baptiste-a06b39155/' target="_blank" rel="noreferrer">Let's Talk</a>

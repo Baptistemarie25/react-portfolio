@@ -1,0 +1,21 @@
+.port-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.port-items {
+    padding:1.5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.port-img img {
+    opacity: 1;
+    height: 150px;
+    width: 300px;
+    float: right;
+    object-fit: cover;
+    border: 5px solid #26190b;
+}

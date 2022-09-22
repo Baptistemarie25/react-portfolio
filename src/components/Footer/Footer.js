@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Footer/Footer.css'
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 
@@ -12,8 +13,8 @@ const Footer = () => {
             </a>
     
             <ul className='links'>
-            <il><a href='/#Portfolio'>Portfolio</a></il>
-            <il><a href='/#Contact'>Contact</a></il>
+            <li><a href='/#Portfolio'>Portfolio</a></li>
+            <li><a href='/#Contact'>Contact</a></li>
             </ul>
     
             <BottomNavigation
@@ -24,14 +25,14 @@ const Footer = () => {
                 }}
             >
                 <BottomNavigationAction label="GitHub" 
-                icon={<i class="fa-brands fa-github"></i>} 
+                icon={<i className="fa-brands fa-github"></i>} 
                 href="https://github.com/Baptistemarie25" 
                 target="_blank" 
                 rel="noopener noreferrer">
                 </BottomNavigationAction>
 
                 <BottomNavigationAction label="LinkedIn" 
-                icon={<i class="fa-brands fa-linkedin"></i>}
+                icon={<i className="fa-brands fa-linkedin"></i>}
                 href="https://www.linkedin.com/in/marie-baptiste-a06b39155/" 
                 target="_blank" 
                 rel="noopener noreferrer">

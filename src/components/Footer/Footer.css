@@ -1,0 +1,9 @@
+footer{
+    padding: 30px 35px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 10px solid var(--primary-color);
+    background-color: #BC6A17;
+}

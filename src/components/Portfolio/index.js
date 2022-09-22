@@ -1,23 +1,24 @@
 import React from 'react'
 import "../Portfolio"
-import bookengine from '/Users/mariebaptiste/Desktop/react-portfolio/photo-port/src/assets/bookengine.png'
-import lenstrends from '/Users/mariebaptiste/Desktop/react-portfolio/photo-port/src/assets/lensTrends.png'
-import runbuddy from '/Users/mariebaptiste/Desktop/react-portfolio/photo-port/src/assets/runbuddy.jpeg'
-import vacayplanner from '/Users/mariebaptiste/Desktop/react-portfolio/photo-port/src/assets/vacayplanner.png'
-import budget from '/Users/mariebaptiste/Desktop/react-portfolio/photo-port/src/assets/budget.png'
-import notes from '/Users/mariebaptiste/Desktop/react-portfolio/photo-port/src/assets/notes.png'
+import "../Portfolio/portfolio.css"
+import bookengine from '../../assets/bookengine.png'
+import lenstrends from '../../assets/lensTrends.png'
+import runbuddy from '../../assets/runbuddy.jpeg'
+import vacayplanner from '../../assets/vacayplanner.png'
+import budget from '../../assets/budget.png'
+import notes from '../../assets/notes.png'
 
 
 
 function Portfolio() {
     return (
-        <section id='Portfolio'>
+        <section id="Work" >
             <h3>Portfolio</h3>
 
             <div className='container port-info'>
 
             <section className='port-items'>
-                <div className='portfolio-img'>
+                <div className='port-img'>
                 <img src={bookengine} alt='book engine'/>
                 </div>
                 <h3>Book Engine</h3>
@@ -28,7 +29,7 @@ function Portfolio() {
             </section>
     
             <section className='port-items'>
-                <div className='portfolio-img'>
+                <div className='port-img'>
                 <img src={lenstrends} alt='lenstrends'/>
                 </div>
                 <h3>LensTrends</h3>
@@ -39,7 +40,7 @@ function Portfolio() {
             </section>
     
             <section className='port-items'>
-                <div className='portfolio-img'>
+                <div className='port-img'>
                 <img src={runbuddy} alt='Run Buddy Site'/>
                 </div>
                 <h3>Run Buddy</h3>
@@ -50,7 +51,7 @@ function Portfolio() {
             </section>
     
             <section className='port-items'>
-                <div className='portfolio-img'>
+                <div className='port-img'>
                 <img src={vacayplanner} alt='vacation planner'/>
                 </div>
                 <h3>Vacay Planner</h3>
@@ -61,7 +62,7 @@ function Portfolio() {
             </section>
 
             <section className='port-items'>
-                <div className='portfolio-img'>
+                <div className='port-img'>
                 <img src={budget} alt='budget tracker'/>
                 </div>
                 <h3>Budget Tracker</h3>
@@ -72,7 +73,7 @@ function Portfolio() {
             </section>
 
             <section className='port-items'>
-                <div className='portfolio-img'>
+                <div className='port-img'>
                 <img src={notes} alt='note taker'/>
                 </div>
                 <h3>Note Taker</h3>
