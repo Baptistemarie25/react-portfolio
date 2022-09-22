@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.12fcf798.css",
+    "main.js": "/react-portfolio/static/js/main.1ed20740.js",
+    "static/js/787.0cbe904b.chunk.js": "/react-portfolio/static/js/787.0cbe904b.chunk.js",
+    "static/media/vacayplanner.png": "/react-portfolio/static/media/vacayplanner.e2c9fbd84314cbe20eda.png",
+    "static/media/lensTrends.png": "/react-portfolio/static/media/lensTrends.4fcc4134ae0f3d3f793b.png",
+    "static/media/me.jpeg": "/react-portfolio/static/media/me.a4ac80529e6af566d4ff.jpeg",
+    "static/media/runbuddy.jpeg": "/react-portfolio/static/media/runbuddy.a6e054c220e3689df405.jpeg",
+    "static/media/budget.png": "/react-portfolio/static/media/budget.6096f5318e3a4d4d551d.png",
+    "static/media/bookengine.png": "/react-portfolio/static/media/bookengine.c5fe4fa9d56f22dd4ab8.png",
+    "static/media/notes.png": "/react-portfolio/static/media/notes.0257eb0ef69b779f4608.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.12fcf798.css.map": "/react-portfolio/static/css/main.12fcf798.css.map",
+    "main.1ed20740.js.map": "/react-portfolio/static/js/main.1ed20740.js.map",
+    "787.0cbe904b.chunk.js.map": "/react-portfolio/static/js/787.0cbe904b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12fcf798.css",
+    "static/js/main.1ed20740.js"
+  ]
+}
