@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Website
 
-[](https://baptistemarie25.github.io/react-portfolio/)
+[link to site](https://baptistemarie25.github.io/react-portfolio/)
 
 ## Available Scripts
 
